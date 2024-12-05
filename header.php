@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $page_title; ?></title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/Ferrari-logo.png" type="image/png">
 </head>
 <body>
 <header class="main-header container-fluid py-3 d-flex align-items-center justify-content-between">
-    <img src="images/Ferrari-Emblem.png" alt="Ferrari Logo" class="logo" style="max-width: 80px; height: auto;">
-    <span class="ms-3 fs-4">Ferrari</span>
+    <img src="images/Ferrari-Emblem.png" alt="Ferrari Logo" class="logo" onclick="window.location.href='index.php';" style="cursor: pointer; max-width: 80px; height: auto;">
+    <span href="index.php" class="ms-3 fs-4" onclick="window.location.href='index.php';" style="cursor: pointer; z-index: 2000;">Ferrari</span>
     <nav class="ms-auto w-100">
         <ul class="nav justify-content-center align-items-center">
             <li class="nav-item">
@@ -28,7 +28,7 @@
                             <h4 class="model-title">Ferrari 812 Superfast</h4>
                             <p class="model-info">Lease Starting at $799/mo</p>
                         </a>
-                        <a href="https://www.ferrari.com/en-EE/auto/f8-tributo" class="model dropdown-item">
+                        <a href="Ferrari_F8_Tributo.php" class="model dropdown-item">
                             <img src="images/Ferrari-F8-Tributo-Transparent.png" alt="Ferrari F8 Tributo" class="model-img">
                             <h4 class="model-title">Ferrari F8 Tributo</h4>
                             <p class="model-info">Lease Starting at $299/mo</p>

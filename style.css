@@ -1,8 +1,10 @@
+
 html, body {
     transition: filter 0.3s ease-in-out;
     max-width: 100%;
     padding-top: 40px;
     overflow-x: hidden;
+    background-color: white;
 }
 
 .main-header {
@@ -110,6 +112,7 @@ html, body {
     max-width: 150px;
     height: auto;
     background-color: transparent;
+    overflow-y: hidden;
 }
 
 .model:hover {

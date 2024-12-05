@@ -1,0 +1,66 @@
+
+body{
+    overflow-x: hidden;
+}
+
+#horse-transition {
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    pointer-events: none;
+    animation: fadeIn 1.5s ease-out;
+}
+
+#horse-transition img {
+    width: auto; 
+    height: 100vh;
+}
+
+#content, .main-header {
+    opacity: 0;
+}
+
+#content{
+    display: none;
+}
+
+#content.show {
+    opacity: 1;
+    display: block;
+}
+
+header.show{
+    opacity: 1;
+}
+
+#fill {
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#fill.hide{
+    opacity: 0;
+    display: none;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    15% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 900px){
+    #horse-transition {
+        left: 50%;
+    }
+}

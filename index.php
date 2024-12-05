@@ -1,6 +1,7 @@
 <?php
     $page_title = "Ferrari - Models";
     require "header.php";
+    include "page_transition.php";
 ?>
     <div id="content">
         <section class="container-fluid p-0">
@@ -13,7 +14,7 @@
                     <div class="mb-5">
                         <div class="d-flex justify-content-center">
                             <a href="https://preowned.ferrari.com/en-US/r/north-america/used-ferrari/usa/f8-tributo/rfcm" class="btn me-3 order-button">Order Now</a>
-                            <a href="https://www.ferrari.com/en-EE/auto/f8-tributo" class="btn btn-light learn-more-button">Learn More</a>
+                            <a href="Ferrari_F8_Tributo.php" class="btn btn-light learn-more-button">Learn More</a>
                         </div>
                     </div>
                 </div>
